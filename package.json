@@ -1,5 +1,6 @@
+
 {
-  "name": "shipment-backend",
+  "name": "trackparcelhub",
   "version": "1.0.0",
   "scripts": {
     "start": "node server.js"
@@ -8,6 +9,8 @@
     "express": "^4.18.2",
     "pg": "^8.11.3",
     "dotenv": "^16.3.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "axios": "^1.6.2",
+    "uuid": "^9.0.1"
   }
 }
