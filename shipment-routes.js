@@ -13,7 +13,7 @@ function shipmentRoutes(db) {
     try {
       const merchantId = req.headers['x-merchant-id'] || req.query.merchant_id;
       if (!merchantId) {
-        return res.status(400).json({ error: 'Missing merchant ID' });
+        return res.status(400).json({ error: ' Please provide Merchant Id Its Missing' });
       }
 
       const { courier, status, fromDate, toDate } = req.query;
